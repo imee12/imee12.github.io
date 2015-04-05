@@ -235,3 +235,11 @@ body {
   color: #ffffff;
   background-color: rgba(70, 70, 70, 0.9);
 }
+
+.imee {
+  font-family: Helvetica;
+}
+
+#portfolio h1 {
+  text-align: center;
+}
