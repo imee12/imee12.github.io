@@ -1,0 +1,21 @@
+{
+  "name": "Portfolio",
+  "main": "index.js",
+  "version": "[A",
+  "homepage": "https://github.com/imee12/Portfolio",
+  "authors": [
+    "Imee Cuison <imeetwelve@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
