@@ -30,5 +30,11 @@ $('a[href^="#"]').on('click', function(event) {
     }
 
 });
+//
+// $(".short").hover(function(event) {
+//   // $(this).addClass("wiggle");
+//   // $(this).find("img").css({"padding": "15px"});
+//   $(this).
+// });
 
 });

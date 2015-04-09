@@ -100,9 +100,30 @@ a.sitename, a:visited.sitename {
 
   #menu:target .hide, #menu:target .menu-items {
     display: inline-block; } }
+.mh2:hover {
+  width: 250px; }
+
+.mh1:hover {
+  width: 250px; }
+
+.mh:hover {
+  width: 600px; }
+
+.spout img:hover {
+  width: 340px; }
+
 @media only screen and (max-width: 220px) {
   .sitename, .show, .hide {
     font-size: 14px; } }
+@media only screen and (max-width: 390px) {
+  .sitename, .show, .hide {
+    font-size: 14px; }
+
+  .mh {
+    width: 200px; }
+
+  .mh:hover {
+    width: 240px; } }
 /* WEB FONT */
 /* RESET */
 * {
@@ -229,7 +250,7 @@ padding: 5px;
 
 } */
 #contact {
-  height: 800px;
+  height: 600px;
   width: 100%;
   /* background-image: url(images/purpdamask.jpg); */
   /*   background-color: #b27f87 ; */ }
@@ -258,15 +279,98 @@ padding: 5px;
 #portfolio img {
   margin: 15px; }
 
-#portfolio .merlin h1 {
+#portfolio .merlin h1, #portfolio .spout h1, #contact h2 {
   color: white;
   font-size: 30px; }
 
-.merlpara {
+#portfolio a {
+  align: center; }
+
+.merlpara, .spoutpara {
   width: 35%; }
 
 .merlin img, .merlpara {
   display: inline-block;
   vertical-align: top; }
+
+.tech {
+  text-align: center; }
+
+.spout img, .spoutpara {
+  display: inline-block;
+  vertical-align: top; }
+
+#cv .html, #cv .js, #cv .back, #cv .other, #cv .non {
+  font-size: 18px;
+  width: 17%;
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  margin: 10px; }
+
+#cv h3 {
+  padding: 3px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+#contact h2 {
+  width: 55%;
+  margin: 10px;
+  font-size: 32px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.shout, .short {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px; }
+
+#contact {
+  padding: 2px;
+  margin: 3px; }
+
+.shout {
+  padding: 2px;
+  margin: 10px;
+  font-size: 23px;
+  width: 50%;
+  text-align: center; }
+
+.short {
+  border-radius: 27%;
+  width: 40%;
+  margin: 10px;
+  /*   background-image: url(images/shorthair.jpg);
+   */ }
+
+/* .short:hover {
+  background-image: url(images/cropz.jpeg);
+  background-size: cover;
+
+} */
+/*
+.little:hover {
+  background-image: url(images/dogown.jpg);
+  background-size: cover;
+}
+ */
+.iconz {
+  vertical-align: top;
+  /*   display: inline-block; */ }
+
+.iconq {
+  margin: 5px;
+  width: 50%; }
+
+.iconq, .icc {
+  display: inline-block; }
+
+.icc p {
+  display: inline-block;
+  color: black; }
 
 /*# sourceMappingURL=styles.css.map */
