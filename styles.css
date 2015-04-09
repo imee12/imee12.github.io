@@ -99,7 +99,10 @@ a.sitename, a:visited.sitename {
     display: none; }
 
   #menu:target .hide, #menu:target .menu-items {
-    display: inline-block; } }
+    display: inline-block; }
+
+  #contact {
+    height: 1200px; } }
 .mh2:hover {
   width: 250px; }
 
@@ -114,16 +117,39 @@ a.sitename, a:visited.sitename {
 
 @media only screen and (max-width: 220px) {
   .sitename, .show, .hide {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  #cv li {
+    font-size: 8px; }
+
+  #cv .html, #cv .js, #cv .back, #cv .other, #cv .non {
+    margin: 2px;
+    width: 39%;
+    display: block;
+    list-style: none;
+    vertical-align: top; } }
+@media only screen and (max-width: 500px) {
+  #cv {
+    font-size: 10px; } }
 @media only screen and (max-width: 390px) {
   .sitename, .show, .hide {
-    font-size: 14px; }
+    font-size: 12px; }
 
   .mh {
     width: 200px; }
 
   .mh:hover {
-    width: 240px; } }
+    width: 240px; }
+
+  #cv li {
+    font-size: 10px; }
+
+  #cv .html, #cv .js, #cv .back, #cv .other, #cv .non {
+    margin: 2px;
+    width: 49%;
+    list-style: none;
+    vertical-align: top;
+    font-size: 9px; } }
 /* WEB FONT */
 /* RESET */
 * {
@@ -250,7 +276,7 @@ padding: 5px;
 
 } */
 #contact {
-  height: 600px;
+  /*   height: 620px; */
   width: 100%;
   /* background-image: url(images/purpdamask.jpg); */
   /*   background-color: #b27f87 ; */ }
@@ -343,7 +369,8 @@ padding: 5px;
 .short {
   border-radius: 27%;
   width: 40%;
-  margin: 10px;
+  margin: 60px;
+  width: 250px;
   /*   background-image: url(images/shorthair.jpg);
    */ }
 
